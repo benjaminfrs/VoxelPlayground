@@ -1,0 +1,4 @@
+compilation for MacOS Monterey:
+- Have glfw, libnoise, and glm libraries installed (installing in /usr/local/include is the most straightforward) 
+
+g++ hello_stacks.cpp -o hello_stacks.out -lnoise -lglfw -framework OpenGL -std=c++17 -v
